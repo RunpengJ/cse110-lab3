@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Software Engineer Meeting</title>
+  </head>
+  <body>
+    <header>
+        <h1>Meeting Minutes</h1>
+        <nav>
+            <a href="/breakfast.jpeg">breakfast</a> |
+        </nav>
+        <div id="meeting_info">
+            <p><b>Date and time:</b> <span id="date">May 4th 8:00 AM to May 4th 9:00 AM</span></p>
+            <p><b>Attendance List:</b> <span id="attendees">Peter Parker, J. Jonah Jameson, Mary Jane Watson, Harry Osborn</span></p> 
+            <p><b>Location:</b> <span id="location">CSE Building Basement Room 230</span></p>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Agenda</h2>
+            <ol>
+                <li>Review last meeting</li>
+                <li>Where are we</li>
+                <li>Next step</li>
+                <li>Wrap up</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>What we left off from last meeting</h2>
+            <ul>
+                <li><i>What is for lunch?</i></li>
+            </ul>
+        
+            <h2>What We Talked about in the Meeting</h2>
+            <details>
+                <summary>What is for lunch</summary>
+                <p>apple</p>
+            </details>
+            <details>
+                <summary>What is for dinner?</summary>
+                <p>banana</p>
+            </details>
+
+            <h2>Comments or Concerns</h2>
+            <ul>
+                <li>JJJ: <em>Health</em> should be an important factor to consider. </li>
+                <li>Peter: At every meal, make at least one healthy choice.</li>
+            </ul>
+            <a href="https://www.youtube.com/watch?v=nVmXsBNfwHY">Healthy choices make your life better!</a>
+            <hr>
+            <form>
+                <fieldset>
+                    <legend>Submit your comments/concerns</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="comment">Comment:</label>
+                    <br>
+                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                    <br>
+                    <input type="checkbox" id="eathealthy" name="eathealthy">
+                    <label for="eathealthy">Did you eat breakfast today?</label>
+                    <br>
+
+                    <label for="diet">Are you on a diet?</label>
+                    <input list="dietYorN" name="diet" id="diet">
+                    <datalist id="dietYorN">
+                        <option value="Yes"></option>
+                        <option value="No"></option>
+                    </datalist>
+                    <br>
+                    <label for="breakfast">Do you think breakfast is important?</label>
+                    <select name="breakfast" id="breakfast">
+                        <option value="none">None</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="comment_date">Date:</label>
+                    <input type="date" id="comment_date" name="comment_date">
+                    <br>
+                    <br>
+
+                    <label>You are: </label><br>
+                    <input type="radio" id="robot" name="robotcheck">
+                    <label>robot</label>
+                    <input type="radio" id="human" name="robotcheck">
+                    <label>human</label>
+                    <input type="radio" id="spiderman" name="robotcheck">
+                    <label>spiderman</label>
+                    <button type="button" onclick="alert('Your Good Neighbor')">i</button>
+                    <input type="radio" id="transformer" name="robotcheck">
+                    <label>transformer</label>
+                    <br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Meeting moments</h2>
+            <p>Picture(s)</p>
+            <img src="breakfast.jpeg" alt="breakfast" width="300" height="200">
+            <br>
+            <p>Audio</p>
+            <audio controls>
+                <source src="IMG_4730.MOV" type="audio/MOV">
+                <source src="IMG_4730.MOV" type="audio/ogg">
+            </audio>
+            <p>Video</p>
+            <video width="320" height="240" controls>
+                <source src="IMG_4730.MOV" type="video/MOV">
+                <source src="IMG_4730.MOV" type="video/ogg">
+            </video>
+        </section>
+
+    </main>
+    <hr>
+    <footer>
+        <p>Here is the footer</p>
+    </footer>
+  </body>
+</html>
