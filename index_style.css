@@ -1,0 +1,41 @@
+/* separate the web page into three parts: header, body, footer */
+header {
+    font-size: 16px;
+    background-color: white
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    color: rgb(77, 77, 77);
+    font-size: 2em;
+    line-height: 1cm;
+}
+
+h2 {
+    color: #4d4d4d;
+    font-size: 1.5rem;
+    line-height: 8mm;
+}
+
+p {
+    color: hsl(0, 0%, 30%);
+    font-size: 100%;
+    line-height: 10q;
+}
+
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+  /* display: flex; */
+  list-style: none;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+  display: block;
+}
