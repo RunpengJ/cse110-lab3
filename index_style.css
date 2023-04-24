@@ -17,9 +17,36 @@ body {
 }
 
 @media (max-width: 1250px) {
-    header {
-      background-color: lightgreen;
+    header, body {
+      background-color: lightblue;
     }
+    * {
+        color: red;
+    }
+}
+
+div p {
+    background-color: aqua;
+}
+
+ol > li {
+    background-color: bisque;
+}
+
+div ~ p {
+    font-style: italic;
+}
+
+div + p {
+    background-color: bisque;
+}
+
+p.p2 {
+    background-color: blue;
+}
+
+a[target] {
+    font-style: italic;
 }
 
 h1 {
