@@ -23,4 +23,4 @@
 | Some member | --- | --- |
 
 ## Summary 
-> a brief summary of the meeting for archive, as well as people who can't make the meeting
+> a brief summary of the meeting for archive, as well as people who can't make the meeting.
