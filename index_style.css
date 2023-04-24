@@ -16,6 +16,39 @@ body {
     background-color: rgb(252, 252, 252);
 }
 
+@media (max-width: 1250px) {
+    header, body {
+      background-color: lightblue;
+    }
+    * {
+        color: red;
+    }
+}
+
+div p {
+    background-color: aqua;
+}
+
+ol > li {
+    background-color: bisque;
+}
+
+div ~ p {
+    font-style: italic;
+}
+
+div + p {
+    background-color: bisque;
+}
+
+p.p2 {
+    background-color: blue;
+}
+
+a[target] {
+    font-style: italic;
+}
+
 h1 {
     color: rgb(77, 77, 77);
     font-size: 2em;
